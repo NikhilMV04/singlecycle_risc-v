@@ -18,7 +18,7 @@ module ALU (
             4'b0110: alu_result = alu_input1 >> alu_input2; // Shift right (logical)
             4'b0111: alu_result = alu_input1 >>> alu_input2;// Shift right (arithmetic)
             4'b1000: alu_result = (alu_input1 < alu_input2) ? 32'b1 : 32'b0; // SLT
-            default: alu_result = 32'b0;                       // Default case
+            default: alu_result = 32'b0;                       
         endcase
     end
 
