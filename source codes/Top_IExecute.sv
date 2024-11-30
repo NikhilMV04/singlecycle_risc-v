@@ -41,6 +41,7 @@ module Top_IExecute (
         .alu_input2(alu_input2),
         .ALUControl(ALUControl),
         .alu_result(alu_result),
+        .funct3(funct3),
         .zero_flag(zero_flag)
     );
 endmodule
